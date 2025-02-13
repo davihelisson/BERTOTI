@@ -12,7 +12,7 @@ Unlike those more established engineering professions, current software engineer
 
 
 O que é "ENGENHARIA DE SOFTWARE"?
-De maneira semelhante à outras engenharias, a Engenharia de Software aplica conhecimento teórico para resolver problemas práticos, problemas reais. Mas ao contrário das outras engenharias, não há tanto rigor com normas e cálculos.
+De maneira semelhante à outras engenharias, a Engenharia de Software aplica conhecimento teórico para resolver problemas práticos, problemas reais. Mas ao contrário das outras engenharias, não há tanto rigor com normas e cálculos. Software é intengível, é algo lógico, como um pensamento. Em Engenharia de Software, não existe solução, apenas trade-off. 
 
 
 
