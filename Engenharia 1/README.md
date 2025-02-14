@@ -42,6 +42,8 @@ Três pontos fundamentais:
 * Como uma empresa de software vai precisar se adaptar à medida que crece
 * Como a empresa toma decisões, com base nas lições aprendidas
 
+Engenharia de Software é PROGRAMAÇÃO + ESCALA DE TEMPO + TRADE-OFF.
+
 ### ATIVIDADE 03
 Listar e Exemplificar 3 trade-offs
 1) Tempo de compilação X Sintaxe simplificada - A linguagem Python é mais simples, menos verbosa, com uma sintaxe mais fácil para usuários leigos/iniciantes. Porém tem uma tempo de compilação (o tempo que leva para a linguagem ser lida, interpretada, processada pelo hardware) é maior pois há muitas camadas de interpretação, antes de chegar propriamente no processador. Em contraposição, há a linguagem C++ que é muito mais verbosa, com uma sintaxe mais trabalhosa, mas que não precisa ser compilada (não passa por tantas camadas de interpretação).
@@ -51,4 +53,5 @@ Listar e Exemplificar 3 trade-offs
 
 ##### EXEMPLOS DE TRADE-OFF DADOS EM SALA (Requeisitos não funcionais (normalmente usamos adjetivos para requistos não funcionais))
 * Portabilidade (Java) X Acessibilidade (Python) - Complexidade de fazer a portabilidade para diversos dispositivos 
-* Usabilidade () X Segurança ()
+* Usabilidade (Windows) X Segurança (Linux) - Linux é baixo nível. Windows é alto nível.
+* Simplicidade X Escalabilidade (Bancos antes e após anos 2000)
