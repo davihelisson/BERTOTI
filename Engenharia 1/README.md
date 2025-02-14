@@ -42,7 +42,7 @@ Três pontos fundamentais:
 * Como uma empresa de software vai precisar se adaptar à medida que crece
 * Como a empresa toma decisões, com base nas lições aprendidas
 
-Engenharia de Software é PROGRAMAÇÃO + ESCALA DE TEMPO + TRADE-OFF.
+Engenharia de Software é PROGRAMAÇÃO + ESCALABILIDADE + TEMPO + TRADE-OFF.
 
 ### ATIVIDADE 03
 Listar e Exemplificar 3 trade-offs
