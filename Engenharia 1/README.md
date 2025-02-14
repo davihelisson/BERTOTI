@@ -1,5 +1,6 @@
-13/02/2025 11h00
+# 13/02/2025 11h00
 
+### ATIVIDADE 01
 """
 What precisely do we mean by software engineering? What distinguishes “software engineering” from “programming” or “computer science”? And why would Google have a unique perspective to add to the corpus of previous software engineering literature written over the past 50 years?
  
@@ -15,7 +16,7 @@ O que é "ENGENHARIA DE SOFTWARE"?
 De maneira semelhante à outras engenharias, a Engenharia de Software aplica conhecimento teórico para resolver problemas práticos, problemas reais. Mas ao contrário das outras engenharias, não há tanto rigor com normas e cálculos. Software é intengível, é algo lógico, como um pensamento. Em Engenharia de Software, não existe solução, apenas trade-off. 
 
 
-
+### ATIVIDADE 02
 """
 Programming Over Time
 We propose that “software engineering” encompasses not just the act of writing code, but all of the tools and processes an organization uses to build and maintain that code over time. What practices can a software organization introduce that will best keep its code valuable over the long term? How can engineers make a codebase more sustainable and the software engineering discipline itself more rigorous? We don’t have fundamental answers to these questions, but we hope that Google’s collective experience over the past two decades illuminates possible paths toward finding those answers.
@@ -40,3 +41,9 @@ Três pontos fundamentais:
 * Como o código vai se adaptar ao longo da vida útil
 * Como uma empresa de software vai precisar se adaptar à medida que crece
 * Como a empresa toma decisões, com base nas lições aprendidas
+
+### ATIVIDADE 03
+Listar e Exemplificar 3 trade-offs
+1) Tempo de compilação X Sintaxe simplificada - A linguagem Python é mais simples, menos verbosa, com uma sintaxe mais fácil para usuários leigos/iniciantes. Porém tem uma tempo de compilação (o tempo que leva para a linguagem ser lida, interpretada, processada pelo hardware) é maior pois há muitas camadas de interpretação, antes de chegar propriamente no processador. Em contraposição, há a linguagem C++ que é muito mais verbosa, com uma sintaxe mais trabalhosa, mas que não precisa ser compilada (não passa por tantas camadas de interpretação).
+2) Manutenção - Outro explo de trade-off é a manutenção do código. Escolher linguagens mais verbosas exigem profissionais mais qualificados para fazer a manutenção dele. Porém, garantem que problemas mais complexos (como alocação de memória) sejam resolvidos. Linguagens com a sintaxe mais "fácil" podem ser mais fáceis de fazer manutenção (já que são mais fáceis de identificar os erros), mas não são capazes de resolver problemas de hardware.
+3) Funcionalidade X Escalabilidade - Sistemas mais complexos, exigem que a funcionalidade estejam em primeiro lugar na lista de tarefas, mas nem sempre são escaláveis (não podem ser replicadas em diversos servidores). Em contrapartida, são os sistemas mais simples (que normalmente são apenas para roubar dados) tem uma escalabilidade maior.
