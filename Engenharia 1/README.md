@@ -47,3 +47,8 @@ Listar e Exemplificar 3 trade-offs
 1) Tempo de compilação X Sintaxe simplificada - A linguagem Python é mais simples, menos verbosa, com uma sintaxe mais fácil para usuários leigos/iniciantes. Porém tem uma tempo de compilação (o tempo que leva para a linguagem ser lida, interpretada, processada pelo hardware) é maior pois há muitas camadas de interpretação, antes de chegar propriamente no processador. Em contraposição, há a linguagem C++ que é muito mais verbosa, com uma sintaxe mais trabalhosa, mas que não precisa ser compilada (não passa por tantas camadas de interpretação).
 2) Manutenção - Outro explo de trade-off é a manutenção do código. Escolher linguagens mais verbosas exigem profissionais mais qualificados para fazer a manutenção dele. Porém, garantem que problemas mais complexos (como alocação de memória) sejam resolvidos. Linguagens com a sintaxe mais "fácil" podem ser mais fáceis de fazer manutenção (já que são mais fáceis de identificar os erros), mas não são capazes de resolver problemas de hardware.
 3) Funcionalidade X Escalabilidade - Sistemas mais complexos, exigem que a funcionalidade estejam em primeiro lugar na lista de tarefas, mas nem sempre são escaláveis (não podem ser replicadas em diversos servidores). Em contrapartida, são os sistemas mais simples (que normalmente são apenas para roubar dados) tem uma escalabilidade maior.
+
+
+##### EXEMPLOS DE TRADE-OFF DADOS EM SALA (Requeisitos não funcionais (normalmente usamos adjetivos para requistos não funcionais))
+* Portabilidade (Java) X Acessibilidade (Python) - Complexidade de fazer a portabilidade para diversos dispositivos 
+* Usabilidade () X Segurança ()
