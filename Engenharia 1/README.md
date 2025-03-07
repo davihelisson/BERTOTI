@@ -55,3 +55,16 @@ Listar e Exemplificar 3 trade-offs
 * Portabilidade (Java) X Acessibilidade (Python) - Complexidade de fazer a portabilidade para diversos dispositivos 
 * Usabilidade (Windows) X Segurança (Linux) - Linux é baixo nível. Windows é alto nível.
 * Simplicidade X Escalabilidade (Bancos antes e após anos 2000)
+
+
+##### COMENTÁRIO SOBRE O SLIDE 57 (O que é o MVP)
+O slide trás uma imagem retratando o que deve ser o Produto Mínimo Viável, usando como um exemplo a construção de um carro. Ele quer mostrar que o MVP tem que trazer soluções que satisfaçam a necessidade do cliente de maneira contínua (mesmo que o cliente não saiba qual é a real necessidade dele). 
+O Cliente não quer um carro. Ele quer uma forma de chegar mais rápido em um lugar mais distante.
+O Cliente não quer só um produto pronto e acabado. ELe quer algo que funcione e resolva o problema que ele tem (mesmo que em partes). 
+Isso significa que trazer pequenas soluções em partes menores ajuda a trazer valor para o projeto.
+Dessa forma, o maior desafio passa a ser "Entender o real problema do cliente". 
+
+
+
+
+
