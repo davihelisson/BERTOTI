@@ -66,6 +66,8 @@ O Cliente não quer só um produto pronto e acabado. ELe quer algo que funcione 
 Isso significa que trazer pequenas soluções em partes menores ajuda a trazer valor para o projeto.
 Dessa forma, o maior desafio passa a ser "Entender o real problema do cliente". 
 
+Cada Sprint entrega um "produto diferente" para resolver o problema.
+
 
 
 
