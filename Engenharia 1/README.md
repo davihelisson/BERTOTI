@@ -57,6 +57,8 @@ Listar e Exemplificar 3 trade-offs
 * Simplicidade X Escalabilidade (Bancos antes e após anos 2000)
 
 
+
+### ATIVIDADE 04
 ##### COMENTÁRIO SOBRE O SLIDE 57 (O que é o MVP)
 O slide trás uma imagem retratando o que deve ser o Produto Mínimo Viável, usando como um exemplo a construção de um carro. Ele quer mostrar que o MVP tem que trazer soluções que satisfaçam a necessidade do cliente de maneira contínua (mesmo que o cliente não saiba qual é a real necessidade dele). 
 O Cliente não quer um carro. Ele quer uma forma de chegar mais rápido em um lugar mais distante.
