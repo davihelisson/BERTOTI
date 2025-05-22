@@ -69,6 +69,104 @@ Dessa forma, o maior desafio passa a ser "Entender o real problema do cliente".
 Cada Sprint entrega um "produto diferente" para resolver o problema.
 
 
+### ATIVIDADE 05
+##### JAVA
+```
+public class Lanche {
+    private String nome;
+    private String descricao;
+    private double preco;
+
+    public Lanche(String nome, String descricao, double preco) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.preco = preco;
+    }
+
+    // Getters e Setters
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    @Override
+    public String toString() {
+        return "Lanche{" +
+                "nome='" + nome + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", preco=" + preco +
+                '}';
+    }
+}
+```
+```
+public class Main {
+    public static void main(String[] args) {
+        List<Lanche> lanches = new ArrayList<>();
+
+        lanches.add(new Lanche("X-Burger", "Pão, carne e queijo", 15.0));
+        lanches.add(new Lanche("Hotdog", "Pão, salsicha, batata palha e molho", 10.0));
+        lanches.add(new Lanche("Salgado", "Coxinha de frango com catupiry", 7.5));
+
+        String nomeBusca = "Hotdog";
+        Lanche resultadoNome = buscarPorNome(lanches, nomeBusca);
+        if (resultadoNome != null) {
+            System.out.println("Lanche encontrado por nome: " + resultadoNome);
+        } else {
+            System.out.println("Lanche com nome '" + nomeBusca + "' não encontrado.");
+        }
+
+        double precoBusca = 10.0;
+        List<Lanche> resultadoPreco = buscarPorPreco(lanches, precoBusca);
+        System.out.println("Lanches com preço R$ " + precoBusca + ":");
+        for (Lanche lanche : resultadoPreco) {
+            System.out.println(lanche);
+        }
+    }
+}
+```
+```
+public static Lanche buscarPorNome(List<Lanche> lanches, String nome) {
+        for (Lanche lanche : lanches) {
+            if (lanche.getNome().equalsIgnoreCase(nome)) {
+                return lanche;
+            }
+        }
+        return null;
+    }
+
+    public static List<Lanche> buscarPorPreco(List<Lanche> lanches, double preco) {
+        List<Lanche> encontrados = new ArrayList<>();
+        for (Lanche lanche : lanches) {
+            if (lanche.getPreco() == preco) {
+                encontrados.add(lanche);
+            }
+        }
+        return encontrados;
+    }
+```
+
+
+
 
 
 
